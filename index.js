@@ -1,11 +1,14 @@
 window.onload = function(){
 
-    function logNinja(name, belt, age){
-        console.log(`My name is ${name}
-        and my belt color is ${belt}
-        and my age is ${age}`);
-    }
+    var meats = ["ham", "salami", "bacon"];
 
-    logNinja("Shaun", "black", 25);
-    logNinja("Shaun", "black");
+    console.log(meats);
+    console.log(...meats);
+    console.log("");
+
+    var nums1 = [1,2,3];
+    var nums2 = [3,4,5];
+
+    console.log(nums2);
+
 }
