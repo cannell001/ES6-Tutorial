@@ -1,9 +1,11 @@
 window.onload = function(){
 
-    function log(num = 10){
-        console.log(num);
+    function logNinja(name, belt, age){
+        console.log(`My name is ${name}
+        and my belt color is ${belt}
+        and my age is ${age}`);
     }
 
-    log(5);
-    log();
+    logNinja("Shaun", "black", 25);
+    logNinja("Shaun", "black");
 }
