@@ -1,7 +1,12 @@
-window.onload(){
+window.onload = function(){
 
     const pi = 3.142;
-    //const pi = 10;
-    console.log(pi);
 
+    function calcArea(radius){
+        console.log("The area is: " + pi * radius * radius);
+        console.log("Using Template Literal Syntax -> ")
+        console.log(`The area is ${pi * radius * radius}`);
+    }
+
+    calcArea(5);
 }
