@@ -1,6 +1,16 @@
 window.onload = function(){
 
-    var ninjaGreeting = name => console.log(`${name} says hiiiiiiiiya`);
+    var ninja = {
+        name: "Ryu",
+        chop(x){
+            window.setInterval(function(){
+                if(x > 0){
+                    console.log(this.name + " chopped the enemy");
+                    x--;
+                }
+            }, 1000);
+        }
+    };
 
-    ninjaGreeting("Mark");
+    ninja.chop(5);
 }
