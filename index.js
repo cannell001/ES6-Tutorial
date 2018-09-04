@@ -7,5 +7,6 @@ window.onload = function(){
         console.log(`The area is ${pi * radius * radius}`);
     }
 
+    console.log(pi);
     calcArea(5);
 }
