@@ -1,6 +1,6 @@
 window.onload = function(){
 
-    var ninjaGreeting = function(){
+    var ninjaGreeting = () => {
         console.log("hiiiiiiiiya");
     }
 
