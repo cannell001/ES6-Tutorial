@@ -1,4 +1,4 @@
-window.onload(){
+window.onload = function(){
 
     const pi = 3.142;
     //const pi = 10;
