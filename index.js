@@ -1,6 +1,6 @@
 window.onload = function(){
 
-    var ninjaGreeting = () => console.log("hiiiiiiiiya");
+    var ninjaGreeting = (name) => console.log(`${name} says hiiiiiiiiya`);
 
-    ninjaGreeting();
+    ninjaGreeting("Mark");
 }
