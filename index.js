@@ -1,12 +1,10 @@
 window.onload = function(){
 
-    const pi = 3.142;
+    var x = 10;
 
-    function calcArea(radius){
-        const pi = 10
-        console.log(`The area is ${pi * radius * radius}`);
+    if(x > 5){
+        var x = 5;
     }
 
-    console.log(pi);
-    calcArea(5);
+    console.log(x);
 }
