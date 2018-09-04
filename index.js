@@ -1,9 +1,9 @@
 window.onload = function(){
 
-    function log(num){
+    function log(num = 10){
         console.log(num);
     }
 
-    log(3);
-    log();   
+    log(5);
+    log();
 }
