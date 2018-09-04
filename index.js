@@ -1,10 +1,9 @@
 window.onload = function(){
 
-    var items = document.getElementsByTagName("li");
-
-    for(let x = 0; x < items.length; x++){
-        items[x].onclick = () => console.log(x);
+    function log(num){
+        console.log(num);
     }
 
-    console.log(`Arrow Function Syntax: () => console.log(x)`);    
+    log(3);
+    log();   
 }
