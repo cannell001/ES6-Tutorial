@@ -1,32 +1,18 @@
 window.onload = function(){
 
-    var nums1 = [1,2,3];
-    var nums2 = [...nums1,3,4,5];
+    var temp = `hello, my name is Ryu`;
+    var temp2 = `hello,
+                 my name is Ryu`;
 
-    console.log(nums2);
+    console.log(temp);
+    console.log(temp2);
     console.log("");
 
-    var nums = [3,5,7];
-
-    function addNums(a,b,c){
-        console.log(a+b+c)
+    function logNinja(name, age){
+        console.log("my name is " + name + " and my age is " + age);
+        console.log(`my name is ${name} and my age is ${age}`);
+        console.log(`my name is ${name} and my age is ${10 + 14}`);
     }
 
-    addNums(nums);
-    addNums(...nums);
-
-    console.log("");
-
-    addNums = function(a,b,c){
-        console.log(a+b+c)
-    }
-
-    addNums(...nums);
-
-    console.log("");
-
-    addNums = (a,b,c) => console.log(a+b+c);
-
-    addNums(...nums);
-
+    logNinja("John", 25);
 }
