@@ -12,9 +12,18 @@ window.onload = function(){
       {name: "Company Nine", category: "Retail", start: 1981, end: 1989}
     ];
 
-    // forEach
+    const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 
-    companies.forEach(function(company) {
-       console.log(company.name);
-     });
+    // filter
+
+    // Get 21 and older
+
+    let canDrink = [];
+    for(let i = 0; i < ages.length; i++) {
+      if(ages[i] >= 21) {
+        canDrink.push(ages[i]);
+      }
+    }
+
+    console.log(canDrink);
 }
