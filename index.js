@@ -11,12 +11,16 @@ window.onload = function(){
       {name: "Company Eight", category: "Technology", start: 2011, end: 2016},
       {name: "Company Nine", category: "Retail", start: 1981, end: 1989}
     ];
-    // filter retail companies
 
-    // Get companies that lasted 10 years or more
+    // map
 
-    const lastedTenYears = companies.filter(company => (company.end - company.start >= 10));
+    //Create array of company names
+    // const companyNames = companies.map(function(company) {
+    //   return company.name;
+    // });
 
-    console.log(lastedTenYears);
+    const companyNames = companies.map(company => company.name);
+
+    console.log(companyNames);
 
 }
