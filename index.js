@@ -13,12 +13,10 @@ window.onload = function(){
     ];
     // filter retail companies
 
-     const retailCompanies = companies.filter(function(company) {
-       if(company.category === 'Retail') {
-         return true;
-       }
-     });
+    // Get companies that lasted 10 years or more
 
-    console.log(retailCompanies);
+    const lastedTenYears = companies.filter(company => (company.end - company.start >= 10));
+
+    console.log(lastedTenYears);
 
 }
