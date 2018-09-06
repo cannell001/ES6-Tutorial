@@ -14,13 +14,12 @@ window.onload = function(){
 
     // map
 
-    //Create array of company names
-    // const companyNames = companies.map(function(company) {
-    //   return company.name;
+    // const testMap = companies.map(function(company) {
+    //   return `${company.name} [${company.start} - ${company.end}]`;
     // });
 
-    const companyNames = companies.map(company => company.name);
+    const testMap = companies.map(company => `${company.name} [${company.start} - ${company.end}]`);
 
-    console.log(companyNames);
+    console.log(testMap);
 
 }
