@@ -6,11 +6,13 @@ window.onload = function(){
 
     // Get 21 and older
 
-     const canDrink = ages.filter(function(age) {
-       if(age >= 21) {
-         return true;
-       }
-     })
+    // const canDrink = ages.filter(function(age) {
+    //   if(age >= 21) {
+    //     return true;
+    //   }
+    // });
+
+    const canDrink = ages.filter(age => age >= 21);
 
     console.log(canDrink);
 }
